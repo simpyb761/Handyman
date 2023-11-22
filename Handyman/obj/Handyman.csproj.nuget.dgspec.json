@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\simpy\\OneDrive\\Documents\\GitHub\\Capstone\\Handyman\\Handyman\\Handyman.csproj": {}
+    "C:\\Users\\melis\\OneDrive\\Desktop\\Git Uploads\\Handyman\\Handyman\\Handyman.csproj": {}
   },
   "projects": {
-    "C:\\Users\\simpy\\OneDrive\\Documents\\GitHub\\Capstone\\Handyman\\Handyman\\Handyman.csproj": {
+    "C:\\Users\\melis\\OneDrive\\Desktop\\Git Uploads\\Handyman\\Handyman\\Handyman.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\simpy\\OneDrive\\Documents\\GitHub\\Capstone\\Handyman\\Handyman\\Handyman.csproj",
+        "projectUniqueName": "C:\\Users\\melis\\OneDrive\\Desktop\\Git Uploads\\Handyman\\Handyman\\Handyman.csproj",
         "projectName": "Handyman",
-        "projectPath": "C:\\Users\\simpy\\OneDrive\\Documents\\GitHub\\Capstone\\Handyman\\Handyman\\Handyman.csproj",
-        "packagesPath": "C:\\Users\\simpy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\simpy\\OneDrive\\Documents\\GitHub\\Capstone\\Handyman\\Handyman\\obj\\",
+        "projectPath": "C:\\Users\\melis\\OneDrive\\Desktop\\Git Uploads\\Handyman\\Handyman\\Handyman.csproj",
+        "packagesPath": "C:\\Users\\melis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\melis\\OneDrive\\Desktop\\Git Uploads\\Handyman\\Handyman\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\simpy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\melis\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
