@@ -1,4 +1,5 @@
 using Handyman.Data;
+using Handyman.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -9,9 +10,12 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+builder.Services.AddDbContext<TaskContext>(options =>
+options.UseSqlServer(connectionString));
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
+
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();

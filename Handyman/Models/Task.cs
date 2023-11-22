@@ -1,4 +1,6 @@
-﻿namespace Handyman.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Handyman.Models
 {
     public enum Categories
     {
@@ -14,7 +16,9 @@
     }
     public class Tasks
     {
-        public int DIYID { get; set; }
+        [Required]
+        [Key]
+        public int Id { get; set; }
         public string TaskName { get; set; }
         public string Tools { get; set; }
         public string Steps { get; set; }
